@@ -7,13 +7,13 @@ public class Mobile {
 
 	public static void main(String[] args) {
 		ApplicationContext c=new ClassPathXmlApplicationContext("beans.xml");
-		/*Airtel a=c.getBean(Airtel.class);
+		Airtel a=c.getBean(Airtel.class);
 		a.SimType();
-		a.Membership();*/
+		a.Membership();
 		
-		Sim j=c.getBean(Sim.class);
+		/*Sim j=c.getBean(Sim.class);
 		j.SimType();
-		j.Membership();
+		j.Membership();*/
 		System.out.println("The program is executed....!");
 		
 	}

@@ -5,6 +5,6 @@
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
 
-<bean id="sim" class="com.cg.ioc.Jio"/>
+<bean id="sim1" class="com.cg.ioc.Airtel"/>
 
 </beans>
