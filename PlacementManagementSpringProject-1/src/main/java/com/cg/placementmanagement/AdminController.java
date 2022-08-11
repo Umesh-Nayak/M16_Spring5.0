@@ -54,6 +54,7 @@ public class AdminController
 	{
 		try
 		{
+			@SuppressWarnings("unused")
 			Admin admin1=service.get(id);
 			service.save(admin);
 			return new ResponseEntity<>(admin,HttpStatus.OK);
